@@ -157,8 +157,10 @@ public class NoteEdit extends AppCompatActivity{
                 AlertDialog.Builder dialog = new AlertDialog.Builder(NoteEdit.this);
                 dialog.setTitle("About");
                 dialog.setMessage("Hello! I'm Chris, the creator of this application. This app was created for CISP362" +
-                       "If there is any bug found please e-mail me at: "+
-                        "chrispmata@gmail.com"
+                      " using open source resources and learning materials." +
+                        "I would like to thank Anna Zapuskalova for creating the launcher image." +
+                        " If there is any bug found please e-mail me at: "+
+                        "cmata16@gmail.com"
                 );
                 dialog.setPositiveButton("OK", new DialogInterface.OnClickListener() {
 
