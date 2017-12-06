@@ -26,8 +26,7 @@
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:text="@string/title"
-			android:textSize="18sp"
-			/>
+			android:textSize="18sp" />
 
 		<EditText
 			android:id="@+id/title"
@@ -41,8 +40,7 @@
 			android:maxLength="14"
 			android:singleLine="true"
 			android:textAlignment="textEnd"
-			android:textSize="18sp"
-			/>
+			android:textSize="18sp" />
 
 		<TextView
 			android:id="@+id/notelist_date"
