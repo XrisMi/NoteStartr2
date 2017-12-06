@@ -15,6 +15,7 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 import android.widget.AdapterView.AdapterContextMenuInfo;
+import android.widget.TextView;
 
 
 
@@ -24,6 +25,7 @@ public class NoteList extends ListActivity {
     private static final int ACTIVITY_EDIT=1;
     private static final int DELETE_ID = Menu.FIRST;
     private int mNoteNumber = 1;
+    private TextView textViewTop;
 
     private NotesDbAdapter mDbHelper;
 
@@ -43,6 +45,7 @@ public class NoteList extends ListActivity {
             }
         });
 
+        textViewTop = (TextView) findViewById(R.id.textViewTop);
 
 
     }

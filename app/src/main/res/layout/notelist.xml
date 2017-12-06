@@ -14,8 +14,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:paddingBottom="35dp"
+        android:text="@string/app_name"
         android:textAlignment="viewStart"
-        android:textSize="18sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         tools:text="@string/app_name" />
 
@@ -27,7 +28,7 @@
         android:layout_below="@+id/textViewTop"
         android:background="#FFF9C8"
         android:divider="#D3D3D3"
-        android:dividerHeight="1sp"
+        android:dividerHeight="2sp"
         android:footerDividersEnabled="true" />
 
     <LinearLayout
